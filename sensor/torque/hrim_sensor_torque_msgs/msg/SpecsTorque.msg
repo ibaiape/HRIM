@@ -19,8 +19,6 @@ uint32 max_rpm 0  # The maximum rpm the sensor withstands, if the sensor type is
 uint16 safe_overload # Maximum force the sensor withstands safely, in reference to the max_rated value (%)
 uint16 max_overload  # Maximum force the sensor withstands before total breakdown, in reference to the max_rated value (%)
 
-uint8 axis # Number of axis the torque sensor detects (1-3)
-
 uint16 max_rate # Maximum amount of measurements per second (Hz)
 
 float32 min_ideal_temp	# Minimum temperature where the error margin is at it's lowest (°C)
