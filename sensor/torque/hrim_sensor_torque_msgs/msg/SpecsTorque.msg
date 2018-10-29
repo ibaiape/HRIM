@@ -16,8 +16,8 @@ uint8 force_direction # The rotatory direction the torque sensor measures
 
 uint32 max_rpm 0  # The maximum rpm the sensor withstands, if the sensor type is static leave default (RPM)
 
-uint16 safe_overload # Maximum force the sensor withstands safely, in reference to the max_rated value (%)
-uint16 max_overload  # Maximum force the sensor withstands before total breakdown, in reference to the max_rated value (%)
+uint16 safe_overload # Maximum force the sensor withstands safely, in reference to the max_torque value (%)
+uint16 max_overload  # Maximum force the sensor withstands before total breakdown, in reference to the max_torque value (%)
 
 uint16 max_rate # Maximum amount of measurements per second (Hz)
 
